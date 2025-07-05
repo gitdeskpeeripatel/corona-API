@@ -22,9 +22,22 @@ This project is a simple, responsive web application that allows users to check 
 
 ### 🚀 How It Works
 
-1. The app loads a dropdown with 10 predefined Indian states.
-2. When a user selects a state, COVID-19 statistics (Confirmed, Recovered, Deaths) are shown in a styled card.
-3. The data is dynamically fetched using `fetch()` from the live API.
+1. **Dropdown Generation**  
+   - The project fetches data from the API.
+   - It filters out 10 predefined Indian states.
+   - These states are dynamically added to a dropdown menu.
+
+2. **User Interaction**  
+   - When a user selects a state from the dropdown, its COVID-19 stats are displayed.
+   - The data shown includes:
+     - Total Confirmed Cases
+     - Recovered Cases
+     - Death Count
+
+3. **Dynamic UI Update**  
+   - The data is shown inside a styled card using JavaScript DOM manipulation.
+   - The display area is initially hidden and shown only when a state is selected.
+
 
 ### 🎯 Featured States
 
