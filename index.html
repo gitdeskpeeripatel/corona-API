@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COVID-19</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>COVID-19 Status in India</h2>
+      <div class="dropdown">
+        <select id="stateSelect">
+          <option value="">-- Select State --</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="card" id="statsCard" style="display: none;">
+      <h2>State Details</h2>
+      <div id="stats" class="stats"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

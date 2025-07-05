@@ -1,0 +1,68 @@
+ body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #314b52, #21608f, #01173a);
+      color: #fff;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      margin: 3rem auto;
+      max-width: 600px;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 12px;
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 2rem;
+      width: 100%;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    h2 {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 1.5rem;
+    }
+
+    .dropdown {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    select {
+      padding: 0.6rem 1rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      border: none;
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      width: 100%;
+      max-width: 250px;
+      backdrop-filter: blur(5px);
+    }
+
+    select option {
+      color: #000;
+    }
+
+    .stats p {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+      color: #f1f1f1;
+    }
+
+    .stats p strong {
+      color: #00d4ff;
+    }
