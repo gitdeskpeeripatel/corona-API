@@ -2,6 +2,11 @@
 #  PROJECT ON COVID-19 Status in India
 
 This project is a simple, responsive web application that allows users to check the COVID-19 statistics for 10 major Indian states using data fetched from a live API.
+### 🔗 Live Demo 
+
+
+#### 👉 https://corona-api-woad.vercel.app/
+---
 
 ### 📁 Project Structure
        corona-API/
