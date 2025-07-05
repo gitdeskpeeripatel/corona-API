@@ -13,10 +13,10 @@ This project is a simple, responsive web application that allows users to check 
 
 ### 🧑‍💻 Languages & Technologies Used
    
-    🧾 HTML5	Structure of the webpage (index.html)  
-    🎨 CSS3	Styling and layout (style.css)
-    📜 JavaScript (ES6)	Logic, API fetching, and interactivity (script.js)
-    🌐 REST API	Live COVID-19 data from Rootnet API
+    🧾 HTML5	- Structure of the webpage (index.html)  
+    🎨 CSS3 -	Styling and layout (style.css)
+    📜 JavaScript (ES6) - Logic, API fetching, and interactivity (script.js)
+    🌐 REST API - Live COVID-19 data from Rootnet API
     🔤 Google Fonts
 
 
