@@ -69,3 +69,10 @@ This project is a simple, responsive web application that allows users to check 
 - Include charts and graphs.
 - Mobile responsiveness improvements.
 - Add a loading spinner or error fallback UI.
+---
+### 📸 Preview
+> ![corona 1](https://github.com/user-attachments/assets/f5d20778-b8e8-40b8-9271-b361313a55b4)
+> ![corona](https://github.com/user-attachments/assets/e0fa7ff8-cc65-4994-93fa-95378ee49d69)
+
+
+
